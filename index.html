@@ -16,23 +16,22 @@
 <body>
     <nav class="navbar">
         <div class="navbar__logo">
-            <i class="fab fa-accusoft"></i>
-            <a href="">Chaha</a>
+            <i class="fas fa-hippo"></i>
+            <a href="index.html">Chaha</a>
             
         </div>
 
         <ul class="navbar__menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Weddings</a></li>
+            <li><a href="#Main__Home">Home</a></li>
+            <li><a href="#Piano__Video">Piano</a></li>
+            <li><a href="">Photo</a></li>
             <li><a href="">FAQ</a></li>
             <li><a href="">Bookings</a></li>
         </ul>
 
         <ul class="navbar__icons">
             <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-facebook-f"></i></li>
-            
+            <li><i class="fab fa-facebook-f"></i></li>    
         </ul>
 
         <a href="#" class="navbar__toggleBtn">
@@ -40,10 +39,9 @@
         </a>
         
     </nav>    
-    <div class="main__page">
+    <div id="Main__Home" class="main__page">
         <i class="fas fa-umbrella-beach"></i>Main Home
     </div>
-    
     <div class="container">       
         <div class="slide" style="background-image: url(C:\\Users\\coke4\\Web\\nav_bar\\image.jpg);"></div>
         <div class="slide" style="background-image: url(C:\\Users\\coke4\\Web\\nav_bar\\space.jpg);"></div>
@@ -51,6 +49,53 @@
         <a class="prev" onclick="button_click(-1)">&#10094</a>
         <a class="next" onclick="button_click(1)">&#10095</a>          
     </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <section class="pianoPart">
+          <div class="title">
+                <i id= "Piano__Video"class="fas fa-music"></i>
+               My Piano Video
+            
+          </div>
+          <div class="list">
+              <ul class="pianoList">
+                  <li>
+                      <a href="flowerdance.html"
+                        class="a">
+                      Flower Dance
+                    </a>
+                    </li>
+                  <li>
+                    <a href="overEra.html"
+                        class="a">  
+                    시대를 초월한 마음
+                </a></li>
+                  <li>
+                    <a href="blackAndWhite.html"
+                    class="a">  
+                      흑건 백건
+                    </a></li>
+                   <li>
+                      <a href="Summer.html"
+                        class="a">
+                      Summer 
+                    </a>
+                    </li>
+              </ul>
+          </div>
+      </section>
+      <section class="photo">
+          <div class="title">
+            <i class="fas fa-camera"></i>
+              Photo
+          </div>
+      </section>
+    
+    
     <!-- 깃허브 수정 됬는지 확인용도-->
     
    
